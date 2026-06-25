@@ -23,9 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-348hc^5(hzb_gy_%5$o9mo1k569-@tn+%dvtng(^^2x084g9wb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.domainAIemailreply.com',
+    '://domainAIemailreply.com',
+]
 
 
 # Application definition
